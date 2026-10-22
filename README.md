@@ -27,12 +27,12 @@ The script will create a sounds/ directory on first launch and drop synthesized 
 If your webcam defaults to a different index, adjust cv2.VideoCapture(0) inside virtual_drum.py.
 Keep your hand roughly centered; lanes are horizontal slices with unique instrument art.
 To exit, focus the OpenCV window and press q.
-Troubleshooting
+# Troubleshooting
 Webcam fails to open: ensure no other app is using it; try a different camera index (0, 1, 2...).
 Lag or low FPS: lower capture resolution by changing the CAP_PROP_FRAME_WIDTH/HEIGHT values.
 No audio: confirm system volume, ensure pygame mixer initialized (console logs), and that the generated wav files exist under sounds/.
 Dependency install errors: manually install with pip install opencv-python mediapipe pygame then rerun.
-Contributing
+# Contributing
 Fork the repo (see Quick Start).
 Create a branch for your feature/fix:
 git checkout -b feature/my-improvement
