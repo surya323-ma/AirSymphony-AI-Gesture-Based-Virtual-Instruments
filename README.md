@@ -12,17 +12,17 @@ Quit cleanly by pressing q.
 Windows, macOS, or Linux with a functional webcam.
 Python 3.10+ (tested on 3.11).
 Internet access for the first run (to download dependencies automatically).
-Quick Start
-# Fork this repo to your GitHub account.
+# Quick Start
+ Fork this repo to your GitHub account.
 Click the Fork button on GitHub.
 Choose your account/org and confirm.
 Clone your fork locally:
-git clone https://github.com/surya323-ma/AirSymphony-AI-Gesture-Based-Virtual-Instruments
-cd virtual-air-drum
+# git clone https://github.com/surya323-ma/AirSymphony-AI-Gesture-Based-Virtual-Instruments
+
 Run the app (dependencies auto-install on first launch):
-python virtual_drum.py
+# python virtual_drum.py
 Point the webcam toward your hands. Tap downward over each virtual pad to trigger sounds.
-Usage Notes
+# Usage Notes
 The script will create a sounds/ directory on first launch and drop synthesized wav files there.
 If your webcam defaults to a different index, adjust cv2.VideoCapture(0) inside virtual_drum.py.
 Keep your hand roughly centered; lanes are horizontal slices with unique instrument art.
